@@ -32,7 +32,7 @@ Ik heb één javascript bestand gebruikt per HTML pagina. Ik vond dit overzichte
 
 Verder heb ik wat lay-out aanpassingen gedaan zoals:
 
-* De labels van de y-assen een kwartslag gedraaid
+* De labels van de y-assen een kwartslag gedraaid zodat de tekst gewoon horizontaal loopt
 * De volgorde van de legenda van de staafdiagram omgedraaid
 * De hoeveelheid `ticks` en de `domain` van de assen aangepast (de y-as van de lijndiagram loopt nu bijvoorbeeld van 12 tot 15 met stapjes van 0,5)
 * Een kleurenpalet gekozen zodat het een consistent geheel wordt
