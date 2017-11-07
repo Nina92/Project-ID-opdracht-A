@@ -28,14 +28,14 @@ Mijn code bestaat uit de volgende files:
 * burn-out-cijfers.csv
 * burn-out-cijfers-leeftijd.csv
 
-Ik heb één javascript bestand gebruikt per HTML pagina. Ik vond dit overzichtelijker werken dan alles in één javascript bestand te zetten (dan wordt de code zo lang en kun je moeilijker dingen terug vinden). De code is gebasseerd op voorbeelden van Mike Bostock. Ik heb de code zo aangepast zodat het werkt met mijn datasets. Bij de cirkeldiagrammen maak ik gebruik van een `for` loop om drie losse diagrammen te tekenen waaraan de juiste data wordt gekoppeld.
+Ik heb één javascript bestand gebruikt per HTML pagina. Ik vond dit overzichtelijker werken dan alles in één javascript bestand te zetten (dan wordt de code zo lang en kun je moeilijker dingen terug vinden). De code is gebaseerd op voorbeelden van Mike Bostock. Ik heb de code zo aangepast zodat het werkt met mijn datasets. Bij de cirkeldiagrammen maak ik gebruik van een `for` loop om drie losse diagrammen te tekenen waaraan de juiste data wordt gekoppeld.
 
 Verder heb ik wat lay-out aanpassingen gedaan zoals:
 
 * De labels van de y-assen een kwartslag gedraaid
 * De volgorde van de legenda van de staafdiagram omgedraaid
 * De hoeveelheid `ticks` en de `domain` van de assen aangepast (de y-as van de lijndiagram loopt nu bijvoorbeeld van 12 tot 15 met stapjes van 0,5)
-* Een kleurenpalet gekozen zodat het een conistent geheel wordt
+* Een kleurenpalet gekozen zodat het een consistent geheel wordt
 
 De grafieken zijn statisch. Ik had nog interactie toe willen voegen in de vorm van tooltips, zodat je de exacte waarden kunt zien als je bijvoorbeeld over de lijn of een staaf hovert. Hier ben ik helaas niet aan toegekomen.
 
