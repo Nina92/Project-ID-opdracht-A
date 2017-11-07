@@ -28,7 +28,7 @@ Mijn code bestaat uit de volgende files:
 * burn-out-cijfers.csv
 * burn-out-cijfers-leeftijd.csv
 
-Ik heb één javascript bestand gebruikt per HTML pagina. Ik vond dit overzichtelijker werken dan alles in één javascript bestand te zetten (dan wordt de code zo lang en kun je moeilijker dingen terug vinden). De code is gebaseerd op voorbeelden van Mike Bostock. Ik heb de code zo aangepast zodat het werkt met mijn datasets. Bij de cirkeldiagrammen maak ik gebruik van een `for` loop om drie losse diagrammen te tekenen waaraan de juiste data wordt gekoppeld.
+Ik heb één javascript bestand gebruikt per HTML pagina. Ik vond dit overzichtelijker werken dan alles in één javascript bestand te zetten (dan wordt de code zo lang en kun je moeilijker dingen terug vinden). De code is gebaseerd op voorbeelden van Mike Bostock (zie [Bronnen](#bronnen)). Ik heb de code zo aangepast zodat het werkt met mijn datasets. Bij de cirkeldiagrammen maak ik gebruik van een `for` loop om drie losse diagrammen te tekenen waaraan de juiste data wordt gekoppeld.
 
 Verder heb ik wat lay-out aanpassingen gedaan zoals:
 
@@ -40,7 +40,7 @@ Verder heb ik wat lay-out aanpassingen gedaan zoals:
 De grafieken zijn statisch. Ik had nog interactie toe willen voegen in de vorm van tooltips, zodat je de exacte waarden kunt zien als je bijvoorbeeld over de lijn of een staaf hovert. Hier ben ik helaas niet aan toegekomen.
 
 ## Data
-De data die ik heb gebruikt, komt van het Centraal Bureau voor de Statistiek. In mijn code heb ik een dataset gebruikt over de psychosociale arbeidsbelasting bij werknemers. Hierin staan gegevens over werknemers met burn-out klachten in 2014, 2015 en 2016. Vanwege de beperkte tijd die voor dit project stond en omdat de dataset vrij klein is, heb ik er voor gekozen om de data over te typen in CSV format i.p.v. met code op te schonen. Voor de grouped bar chart heb ik een aangepaste versie van deze dataset gebruikt waarin ik de 2e, 3e en 4e kolom weg heb gehaald.
+De data die ik heb gebruikt, komt van het Centraal Bureau voor de Statistiek (zie [Bronnen](#bronnen)). In mijn code heb ik een dataset gebruikt over de psychosociale arbeidsbelasting bij werknemers. Hierin staan gegevens over werknemers met burn-out klachten in 2014, 2015 en 2016. Vanwege de beperkte tijd die voor dit project stond en omdat de dataset vrij klein is, heb ik er voor gekozen om de data over te typen in CSV format i.p.v. met code op te schonen. Voor de grouped bar chart heb ik een aangepaste versie van deze dataset gebruikt waarin ik de 2e, 3e en 4e kolom weg heb gehaald.
 
 Dit is de gebruikte data:
 
