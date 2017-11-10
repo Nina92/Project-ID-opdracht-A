@@ -4,6 +4,9 @@
 **Klas:** ID-3  
 **Coach:** Maaike van Cruchten
 
+## Pages
+https://nina92.github.io/Project-ID-opdracht-A/
+
 ## Concept
 Mijn datavisualisatie gaat over burn-out bij Nederlandse werknemers. De visualisatie geeft inzicht in het aantal werknemers met burn-out klachten in 2014, 2015 en 2016.
 
