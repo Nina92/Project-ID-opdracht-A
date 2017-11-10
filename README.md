@@ -18,7 +18,7 @@ Bij de derde grafiek maak ik gebruik van een gegroepeerde staafdiagram waarbij j
 ## Code
 Mijn code bestaat uit de volgende files:
 
-* graph1.html
+* index.html
 * graph1.js
 * graph2.html
 * graph2.js
@@ -28,7 +28,7 @@ Mijn code bestaat uit de volgende files:
 * burn-out-cijfers.csv
 * burn-out-cijfers-leeftijd.csv
 
-Ik heb één javascript bestand gebruikt per HTML pagina. Ik vond dit overzichtelijker werken dan alles in één javascript bestand te zetten (dan wordt de code zo lang en kun je moeilijker dingen terug vinden). De code is gebaseerd op voorbeelden van Mike Bostock (zie [Bronnen](#bronnen)). Ik heb de code zo aangepast zodat het werkt met mijn datasets. Bij de cirkeldiagrammen maak ik gebruik van een `for` loop om drie losse diagrammen te tekenen waaraan de juiste data wordt gekoppeld.
+Ik heb één javascript bestand gebruikt per HTML pagina. Ik vond dit overzichtelijker werken dan alles in één javascript bestand te zetten (dan wordt de code zo lang en kun je moeilijker dingen terug vinden). De code is gebaseerd op voorbeelden van Mike Bostock (zie [Bronnen](#bronnen)). Ik heb de code zo aangepast zodat het werkt met mijn datasets. Bij de cirkeldiagrammen maak ik gebruik van een `for` loop om drie losse diagrammen te tekenen waaraan de juiste data wordt gekoppeld. Bij de lijngrafiek heb ik ervoor gezorgd dat de x-as alleen de 3 jaartallen laat zien door eerst `d3.timeParse("%Y")` te gebruiken om de data om te zetten naar jaren (jjjj) en vervolgens het aantal ticks van de x-as op 3 te zetten met `.call(d3.axisBottom(x).ticks(3))`.
 
 Verder heb ik wat lay-out aanpassingen gedaan zoals:
 
